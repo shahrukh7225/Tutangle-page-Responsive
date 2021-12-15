@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: 'Mulish'; 
+	
+}
+html{
+	font-size: 16px;
+}
+
+.whole-wrap{
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+
+.container{
+	max-width: 58.625em;
+	margin:0 auto;
+	padding: 0em 2em;
+}
+
+.block-title{
+	font-size: 16px;
+	height: 42px;
+	line-height: 42px;
+	padding: 0px 12px;
+	color: white;
+	background-color: #2fc1da;
+}
